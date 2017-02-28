@@ -9,6 +9,11 @@ section {
 .inline-block {
     display:
 }
+
+.centrer-container {
+    margin: auto;
+}
+
 /*
  _____                            _
 /  __ \                          | |
@@ -113,9 +118,35 @@ li.parcours {
    display: none;
 }
 
-
 .information {
     text-align: left;
+}
+
+@media only screen and (max-width:800px) {
+
+    h2 {
+        font-size: 20px !important;
+    }
+
+    .margin-left-90 {
+        margin-left: 10px;
+    }
+
+    .zone-code {
+        margin-left: 20px !important;
+        width: 80% !important;
+    }
+
+    .information {
+        position: relative;
+        text-align: left;
+        left: -70px;
+    }
+
+}
+
+.margin-left-90 {
+    margin-left: 90px;
 }
 
 .centrer-box {
@@ -231,9 +262,6 @@ li.parcours {
 }
 
 
-.margin-left-90 {
-  margin-left: 90px;
-}
 
 .margin-left-60 {
     margin-left: 60px;
